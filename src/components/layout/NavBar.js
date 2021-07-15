@@ -59,6 +59,8 @@ export default class NavBar extends Component {
           <Logo src="./logo.svg" />
           Pokedex Encyclopedia
         </Branding>
+        <input type = 'text' id = "header-search" placeholder = 'Search Pokemon' name = 's' className="align-items-center" style = {{marginLeft: 'auto'}}/>
+        <button type = 'submit' style = {{marginRight: 'auto'}}>Search</button>
       </nav>
     );
   }
