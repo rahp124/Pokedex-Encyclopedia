@@ -59,8 +59,22 @@ export default class NavBar extends Component {
           <Logo src="./logo.svg" />
           Pokedex Encyclopedia
         </Branding>
-        <input type = 'text' id = "header-search" placeholder = 'Search Pokemon' name = 's' className="align-items-center" style = {{marginLeft: 'auto'}}/>
-        <button type = 'submit' style = {{marginRight: 'auto'}}>Search</button>
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+            <li>
+            </li>
+          </ul>
+          <form className="form-inline my-2 my-lg-0 pull-right search-box">
+            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button className="btn my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>    
       </nav>
     );
   }
