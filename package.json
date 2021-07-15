@@ -5,10 +5,11 @@
   "homepage": "https://ChrisStayte.github.io/ReactDex",
   "dependencies": {
     "axios": "^0.18.0",
-    "bootstrap": "^4.1.3",
+    "bootstrap": "^4.6.0",
     "classnames": "^2.2.6",
     "gh-pages": "^2.0.1",
     "react": "^16.6.3",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^16.6.3",
     "react-icons": "^4.2.0",
     "react-loading": "^2.0.3",
